@@ -25,4 +25,7 @@ echo "*** running"
 echo "*** cleaning up"
 rm myprogram.exe
 
+echo "*** clang-tidy run"
+clang-tidy -header-filter=.* *.cpp -checks="*,-cppcoreguidelines-pro-bounds-array-to-pointer-decay,-google-build-using-namespace,-google-readability-braces-around-statements,-readability-braces-around-statements" -- -std=c++14
+
 date
