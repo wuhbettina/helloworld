@@ -16,5 +16,6 @@ before_install:
 
 
 script:
+    - chmod 755 simplecompile.sh
     - ./simplecompile.sh
     - echo "Travis is done!"
