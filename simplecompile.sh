@@ -1,4 +1,3 @@
-  
 #!/bin/bash
 
 # To more easily compile and run this program on CSS Linux Lab
