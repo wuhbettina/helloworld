@@ -8,8 +8,7 @@
 
 language: cpp
 
-# dist: xenial
-dist: bionic
+dist: xenial
 
 before_install:
   - uname -a
